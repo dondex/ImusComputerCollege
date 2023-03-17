@@ -6177,7 +6177,11 @@ button {
 .banner-section .section-wrapper .banner-thumb {
   z-index: 2;
   margin-top: 30px;
+  margin-left: 20%;
 }
+/* .banner-section .section-wrapper .banner-thumb img {
+  height: 150%;
+} */
 @media (min-width: 992px) {
   .banner-section .section-wrapper .banner-thumb {
     margin-top: 0;
