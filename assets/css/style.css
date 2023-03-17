@@ -3686,7 +3686,8 @@ button {
 }
 
 .section-bg {
-  background: #0072bc;
+  /* background: #0072bc; */
+  background-color: #011635;
 }
 .section-bg2 {
   background: #f2d602;
@@ -6522,6 +6523,9 @@ button {
 .sponsor-section {
   padding: 50px 0;
 }
+.category-section {
+  background-image: url("../images/bg-hero1.png");
+}
 .category-section
   .section-wrapper
   .col
@@ -6731,6 +6735,11 @@ button {
 .category-section.style-4 .section-wrapper .lab-btn:hover {
   box-shadow: 0 5px 10px rgba(49, 131, 247, 0.5);
 }
+.course-section {
+  background-image: url("../images/bg-course4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .course-section
   .section-wrapper
   .col:nth-of-type(6n + 2)
@@ -6927,6 +6936,10 @@ button {
 }
 .video-section .section-wrapper .video-thumb a {
   margin: 30px auto 0;
+}
+.about-section {
+  background-image: url("../images//bg-hero1.png");
+  background-position: center;
 }
 .about-section::before {
   width: 50%;
@@ -7261,6 +7274,12 @@ button {
 }
 .offer-section .section-wrapper .lab-btn:hover {
   box-shadow: 0 5px 10px rgba(49, 131, 247, 0.5);
+}
+
+.instructor-section {
+  background-image: url("../images/bg-course4.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .instructor-section .section-wrapper .footer-btn p a {
@@ -10391,6 +10410,12 @@ button {
 }
 .blog-single .section-wrapper .post-item .post-inner .post-content blockquote {
   margin: 0 0 20px;
+}
+
+.blog-section {
+  background-image: url("../images/bg-course4.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .blog-single
   .section-wrapper
