@@ -3696,6 +3696,7 @@ button {
 .section-header {
   margin-bottom: 50px;
 }
+
 .section-header .subtitle {
   font-size: 1.125rem;
   letter-spacing: 5px;
@@ -4082,7 +4083,7 @@ button {
   z-index: 9999;
   width: 100%;
   height: 100%;
-  background: #0072bc;
+  background: #1d37b8;
 }
 .preloader .preloader-inner {
   position: absolute;
@@ -4191,6 +4192,7 @@ button {
   -ms-transform: translateY(-10px);
   transform: translateY(-10px);
 }
+
 .category-item .category-inner .category-thumb img {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -4408,6 +4410,7 @@ button {
 .course-item.style-4 .course-inner .course-thumb .course-category .course-cate {
   margin-right: 10px;
 }
+
 @media (max-width: 991px) {
   .course-item.style-4
     .course-inner
@@ -5865,8 +5868,10 @@ button {
 
 /* @@@@@@@@@@@@@  Banner Section Start Here  @@@@@@@@@@@@@@ */
 .banner-section {
-  background-image: url("https://cdn.wallpapersafari.com/53/8/Sb7Ue9.jpg");
+  background-image: url("../images/bg-hero444.png");
   background-size: cover;
+  background-attachment: fixed;
+  /* background-color: #1d37b8; */
   padding-top: 170px;
 }
 @media (min-width: 576px) {
@@ -6180,9 +6185,9 @@ button {
   margin-top: 30px;
   margin-left: 20%;
 }
-/* .banner-section .section-wrapper .banner-thumb img {
-  height: 150%;
-} */
+.banner-section .section-wrapper .banner-thumb img {
+  height: 200%;
+}
 @media (min-width: 992px) {
   .banner-section .section-wrapper .banner-thumb {
     margin-top: 0;
@@ -6524,7 +6529,10 @@ button {
   padding: 50px 0;
 }
 .category-section {
-  background-image: url("../images/bg-hero1.png");
+  background-image: url("../images/bg-hero555.png");
+  background-position: center;
+  background-attachment: fixed;
+  /* background-color: #000a6c; */
 }
 .category-section
   .section-wrapper
@@ -6736,10 +6744,12 @@ button {
   box-shadow: 0 5px 10px rgba(49, 131, 247, 0.5);
 }
 .course-section {
-  background-image: url("../images/bg-course4.png");
+  /* background-image: url("../images/bg-course4.png");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-color: #f2d602;
 }
+
 .course-section
   .section-wrapper
   .col:nth-of-type(6n + 2)
@@ -7277,9 +7287,9 @@ button {
 }
 
 .instructor-section {
-  background-image: url("../images/bg-course4.png");
+  background-image: url("../images/bg-hero555.png");
   background-position: center;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .instructor-section .section-wrapper .footer-btn p a {
@@ -10413,9 +10423,9 @@ button {
 }
 
 .blog-section {
-  background-image: url("../images/bg-course4.png");
+  background-image: url("../images/bg-hero444.png");
   background-position: center;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .blog-single
   .section-wrapper
