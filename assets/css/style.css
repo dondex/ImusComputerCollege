@@ -10907,7 +10907,10 @@ footer.style-2 .footer-top.dark-view * {
 }
 
 .news-footer-wrap {
-  background: #1f1f33;
+  /* background: #1f1f33; */
+  background-image: url("../images/bg-hero555.png");
+  background-position: center;
+  background-attachment: fixed;
 }
 @media (max-width: 1439px) {
   .news-footer-wrap .fs-shape {
