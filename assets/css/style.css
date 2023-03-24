@@ -6191,7 +6191,9 @@ button {
   margin-left: 20%;
 }
 .banner-section .section-wrapper .banner-thumb img {
-  height: 200%;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
 }
 @media (min-width: 992px) {
   .banner-section .section-wrapper .banner-thumb {
@@ -6531,7 +6533,7 @@ button {
   font-weight: 500;
 }
 .sponsor-section {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 .category-section {
   background-image: url("../images/bg-hero555.png");
@@ -7850,6 +7852,10 @@ button {
   strong {
   text-align: center;
 }
+
+/* school video */
+
+/* end school video */
 .event-section::after {
   top: 0;
   left: 0;
@@ -8823,8 +8829,9 @@ button {
 }
 
 .achievement-section {
-  background: url(../../assets/images/shape-img/02.png) no-repeat;
-  background-position: center;
+  /* background: url(../../assets/images/shape-img/02.png) no-repeat;
+  background-position: center; */
+  background-color: #f2d602;
 }
 .achievement-section .section-header {
   margin-bottom: 30px;
@@ -8921,7 +8928,7 @@ button {
   box-shadow: 0 5px 10px rgba(38, 201, 118, 0.5);
 }
 .achieve-part .col .achieve-item .achieve-inner .achieve-content .lab-btn {
-  background: #f9e8b0;
+  background: #0072bc;
 }
 .achieve-part
   .col
@@ -10913,7 +10920,7 @@ footer.style-2 .footer-top.dark-view * {
 
 .news-footer-wrap {
   /* background: #1f1f33; */
-  background-image: url("../images/bg-hero555.png");
+  background-image: url("../images/bg-hero444.png");
   background-position: center;
   background-attachment: fixed;
 }
