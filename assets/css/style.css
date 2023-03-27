@@ -6955,15 +6955,16 @@ button {
   margin: 30px auto 0;
 }
 .about-section {
-  background-image: url("../images//bg-hero1.png");
+  background-image: url("../images/bg-hero444.png");
   background-position: center;
+  background-attachment: fixed;
 }
-.about-section::before {
+/* .about-section::before {
   width: 50%;
   height: 100%;
   border-bottom: 753px solid #f2d602;
   border-right: 960px solid transparent;
-}
+} */
 @media (min-width: 1440px) {
   .about-section::before {
     display: block;
