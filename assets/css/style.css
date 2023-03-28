@@ -4608,6 +4608,7 @@ button {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  height: auto;
 }
 .post-item .post-inner:hover {
   -webkit-transform: translateY(-10px);
