@@ -6955,7 +6955,7 @@ button {
   margin: 30px auto 0;
 }
 .about-section {
-  background-image: url("../images/bg-hero444.png");
+  background-image: url("../images/bg-hero555.png");
   background-position: center;
   background-attachment: fixed;
 }
@@ -7295,7 +7295,7 @@ button {
 }
 
 .instructor-section {
-  background-image: url("../images/bg-hero555.png");
+  background-image: url("../images/bg-hero444.png");
   background-position: center;
   background-attachment: fixed;
 }
@@ -10436,7 +10436,7 @@ button {
 }
 
 .blog-section {
-  background-image: url("../images/bg-hero444.png");
+  background-image: url("../images/bg-hero555.png");
   background-position: center;
   background-attachment: fixed;
 }
@@ -10921,7 +10921,7 @@ footer.style-2 .footer-top.dark-view * {
 
 .news-footer-wrap {
   /* background: #1f1f33; */
-  background-image: url("../images/bg-hero444.png");
+  background-image: url("../images/bg-hero555.png");
   background-position: center;
   background-attachment: fixed;
 }

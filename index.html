@@ -15,6 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
+    <link rel="stylesheet" href="./assets/aos/aos.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/icofont.min.css" />
@@ -122,10 +123,12 @@
       <div class="container">
         <div class="section-wrapper">
           <div class="row align-items-center">
-            <div class="col-xxl-5 col-xl-6 col-lg-10">
-              <div
-                class="banner-content animate__animated animate__fadeInLeftBig"
-              >
+            <div
+              class="col-xxl-5 col-xl-6 col-lg-10"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="banner-content">
                 <h6
                   class="subtitle text-uppercase fw-medium"
                   style="color: #f2d602"
@@ -198,7 +201,7 @@
 
     <!-- sponsor section start here -->
     <div class="sponsor-section section-bg2">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="section-wrapper">
           <div class="sponsor-slider">
             <div class="swiper-wrapper">
@@ -291,7 +294,7 @@
 
     <!-- category section start here -->
     <div class="category-section padding-tb">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="section-header text-center">
           <span class="subtitle text-white">Popular Courses</span>
           <h2 class="title text-white">Popular Programs That We Offer</h2>
@@ -398,6 +401,7 @@
           background-attachment: fixed;
           padding: 5%;
         "
+        data-aos="fade-up"
       >
         <div class="section-header text-center">
           <span class="subtitle text-white">Featured Courses</span>
@@ -407,7 +411,67 @@
           <div
             class="row g-4 justify-content-center row-cols-xl-3 row-cols-md-2 row-cols-1"
           >
-            <div class="col">
+            <div class="col" vdata-aos="zoom-in">
+              <div class="course-item">
+                <div class="course-inner">
+                  <div class="course-thumb">
+                    <img
+                      src="assets/images/computer-technician.jpg"
+                      alt="course"
+                    />
+                  </div>
+                  <div class="course-content">
+                    <!-- <div class="course-price">$30</div> -->
+                    <div class="course-category">
+                      <div class="course-cate">
+                        <a href="#">Courses</a>
+                      </div>
+                      <!-- <div class="course-reiew">
+                        <span class="ratting">
+                          <i class="icofont-ui-rating"></i>
+                          <i class="icofont-ui-rating"></i>
+                          <i class="icofont-ui-rating"></i>
+                          <i class="icofont-ui-rating"></i>
+                          <i class="icofont-ui-rating"></i>
+                        </span>
+                        <span class="ratting-count"> 03 reviews </span>
+                      </div> -->
+                    </div>
+                    <a href="#!"
+                      ><h5>
+                        2 Years Computer Technician / Applied Computer
+                        Engineering
+                      </h5></a
+                    >
+                    <!-- <div class="course-details">
+                      <div class="couse-count">
+                        <i class="icofont-video-alt"></i> 18x Lesson
+                      </div>
+                      <div class="couse-topic">
+                        <i class="icofont-signal"></i> Online Class
+                      </div>
+                    </div>
+                    <div class="course-footer">
+                      <div class="course-author">
+                        <img
+                          src="assets/images/course/author/03.jpg"
+                          alt="course author"
+                        />
+                        <a href="team-single.html" class="ca-name"
+                          >Robot Smith</a
+                        >
+                      </div>
+                      <div class="course-btn">
+                        <a href="course-single.html" class="lab-btn-text"
+                          >Read More <i class="icofont-external-link"></i
+                        ></a>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="zoom-in" data-aos-delay="100">
               <div class="course-item">
                 <div class="course-inner">
                   <div class="course-thumb">
@@ -463,7 +527,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
               <div class="course-item">
                 <div class="course-inner">
                   <div class="course-thumb">
@@ -519,67 +583,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="course-item">
-                <div class="course-inner">
-                  <div class="course-thumb">
-                    <img
-                      src="assets/images/computer-technician.jpg"
-                      alt="course"
-                    />
-                  </div>
-                  <div class="course-content">
-                    <!-- <div class="course-price">$30</div> -->
-                    <div class="course-category">
-                      <div class="course-cate">
-                        <a href="#">Courses</a>
-                      </div>
-                      <!-- <div class="course-reiew">
-                        <span class="ratting">
-                          <i class="icofont-ui-rating"></i>
-                          <i class="icofont-ui-rating"></i>
-                          <i class="icofont-ui-rating"></i>
-                          <i class="icofont-ui-rating"></i>
-                          <i class="icofont-ui-rating"></i>
-                        </span>
-                        <span class="ratting-count"> 03 reviews </span>
-                      </div> -->
-                    </div>
-                    <a href="course-single.html"
-                      ><h5>
-                        2 Years Computer Technician / Applied Computer
-                        Engineering
-                      </h5></a
-                    >
-                    <!-- <div class="course-details">
-                      <div class="couse-count">
-                        <i class="icofont-video-alt"></i> 18x Lesson
-                      </div>
-                      <div class="couse-topic">
-                        <i class="icofont-signal"></i> Online Class
-                      </div>
-                    </div>
-                    <div class="course-footer">
-                      <div class="course-author">
-                        <img
-                          src="assets/images/course/author/03.jpg"
-                          alt="course author"
-                        />
-                        <a href="team-single.html" class="ca-name"
-                          >Robot Smith</a
-                        >
-                      </div>
-                      <div class="course-btn">
-                        <a href="course-single.html" class="lab-btn-text"
-                          >Read More <i class="icofont-external-link"></i
-                        ></a>
-                      </div>
-                    </div> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="400">
               <div class="course-item">
                 <div class="course-inner">
                   <div class="course-thumb">
@@ -633,7 +637,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="500">
               <div class="course-item">
                 <div class="course-inner">
                   <div class="course-thumb">
@@ -690,7 +694,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="600">
               <div class="course-item">
                 <div class="course-inner">
                   <div class="course-thumb">
@@ -752,11 +756,11 @@
 
     <!-- abouts section start here -->
     <div class="about-section">
-      <div class="container p-5">
+      <div class="container p-5" data-aos="fade-up">
         <div
           class="p-1 bg-light row justify-content-center row-cols-xl-2 row-cols-1 align-items-end flex-row-reverse"
         >
-          <div class="col">
+          <div class="col" data-aos="fade-left" data-aos-delay="100">
             <div class="about-right padding-tb">
               <div class="section-header">
                 <span class="subtitle">About Imus Computer College</span>
@@ -815,7 +819,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-right" data-aos-delay="100">
             <div class="about-left">
               <div class="about-thumb">
                 <img
@@ -833,7 +837,7 @@
 
     <!-- Instructors Section Start Here -->
     <div class="instructor-section padding-tb section-bg">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="section-header text-center">
           <span class="subtitle text-white">World-class Instructors</span>
           <h2 class="title text-white">Classes Taught By Real Creators</h2>
@@ -842,7 +846,7 @@
           <div
             class="row g-4 justify-content-center row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4"
           >
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="100">
               <div class="instructor-item">
                 <div class="instructor-inner">
                   <div class="instructor-thumb">
@@ -877,7 +881,7 @@
                 </div> -->
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
               <div class="instructor-item">
                 <div class="instructor-inner">
                   <div class="instructor-thumb">
@@ -912,7 +916,7 @@
                 </div> -->
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="300">
               <div class="instructor-item">
                 <div class="instructor-inner">
                   <div class="instructor-thumb">
@@ -947,7 +951,7 @@
                 </div> -->
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="400">
               <div class="instructor-item">
                 <div class="instructor-inner">
                   <div class="instructor-thumb">
@@ -996,7 +1000,7 @@
     <!-- Instructors Section Ending Here -->
 
     <div class="school-video">
-      <div class="container p-5">
+      <div class="container p-5" data-aos="zoom-in">
         <div class="">
           <!-- The video -->
           <iframe
@@ -1016,7 +1020,7 @@
 
     <!-- blog section start here -->
     <div class="blog-section padding-tb section-bg">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="section-header text-center">
           <span class="subtitle text-white">FROM OUR BLOG POSTS</span>
           <h2 class="title text-white">LATEST NEWS & EVENTS</h2>
@@ -1025,7 +1029,7 @@
           <div
             class="row row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center g-4"
           >
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="100">
               <div class="post-item">
                 <div class="post-inner">
                   <div class="post-thumb">
@@ -1065,7 +1069,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
               <div class="post-item">
                 <div class="post-inner">
                   <div class="post-thumb">
@@ -1106,7 +1110,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in" data-aos-delay="300">
               <div class="post-item">
                 <div class="post-inner">
                   <div class="post-thumb">
@@ -1157,9 +1161,10 @@
       <div
         class="container p-5"
         style="
-          background-image: url('./assets/images/bg-hero555.png');
+          background-image: url('./assets/images/bg-hero444.png');
           background-attachment: fixed;
         "
+        data-aos="fade-up"
       >
         <div class="section-header text-center">
           <span class="subtitle text-white">START TO SUCCESS</span>
@@ -1246,9 +1251,9 @@
               </div>
             </div>
           </div>
-          <div class="achieve-part">
+          <div class="achieve-part" data-aos="fade-up">
             <div class="row g-4 row-cols-1 row-cols-lg-2">
-              <div class="col">
+              <div class="col" data-aos="fade-right" data-aos-delay="100">
                 <div class="achieve-item">
                   <div class="achieve-inner">
                     <div class="achieve-thumb">
@@ -1271,7 +1276,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" data-aos="fade-left" data-aos-delay="100">
                 <div class="achieve-item">
                   <div class="achieve-inner">
                     <div class="achieve-thumb">
@@ -1438,6 +1443,7 @@
     </div>
     <!-- footer -->
 
+    <script src="./assets//aos/aos.js"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/swiper.min.js"></script>
