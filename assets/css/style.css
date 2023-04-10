@@ -5095,7 +5095,11 @@ button {
   }
 }
 .header-section.header-fixed .header-bottom {
-  background: #fdfdfdf0;
+  background: #0072bc;
+  /* background-image: url("../images/icc-logo4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
@@ -6192,7 +6196,7 @@ button {
   margin-left: 20%;
 }
 .banner-section .section-wrapper .banner-thumb img {
-  height: auto;
+  height: 850px;
   width: 100%;
   object-fit: contain;
 }
