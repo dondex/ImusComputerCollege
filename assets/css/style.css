@@ -1,5 +1,8 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap");
 /*! @@@@@@@@@@@@@@@@@@@@@@
 
 Template Name: Edukon
@@ -3547,7 +3550,8 @@ html {
 body {
   background: #fff;
   color: #555555;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Kanit", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -5095,7 +5099,7 @@ button {
   }
 }
 .header-section.header-fixed .header-bottom {
-  background: #0072bc;
+  background: #000a6c;
   /* background-image: url("../images/icc-logo4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -5487,6 +5491,7 @@ button {
 }
 .header-wrapper .logo a img {
   max-width: 100%;
+  height: 100px;
 }
 @media (max-width: 575px) {
   .header-wrapper .logo {
@@ -5878,7 +5883,7 @@ button {
 
 /* @@@@@@@@@@@@@  Banner Section Start Here  @@@@@@@@@@@@@@ */
 .banner-section {
-  background-image: url("../images/bg-carmona1.png");
+  background-image: url("../images/bg-carmona8.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center -30%;
@@ -6116,8 +6121,8 @@ button {
 .banner-section .section-wrapper .banner-content .subtitle {
   color: #0072bc;
   letter-spacing: 5px;
-  font-size: 4rem;
-  font-weight: bold;
+  font-size: 3.5rem;
+  font-weight: 800;
 }
 .banner-section .section-wrapper .banner-content .title {
   margin-bottom: 15px;
@@ -6197,12 +6202,14 @@ button {
 .banner-section .section-wrapper .banner-thumb {
   z-index: 2;
   margin-top: 30px;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 .banner-section .section-wrapper .banner-thumb img {
-  height: 850px;
+  height: auto;
   width: 100%;
-  object-fit: contain;
+  margin-top: -20%;
+  margin-left: -5%;
+  object-fit: cover;
 }
 @media (min-width: 992px) {
   .banner-section .section-wrapper .banner-thumb {
